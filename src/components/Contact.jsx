@@ -1,5 +1,6 @@
 import React from 'react'
 import EmailIcon from '../components/Email-icon.png';
+import whatsappIcon from '../components/Whatsapp.png'
 import instagramIcon from '../components/Instagram-icon.png'
 import FacebookIcon from '../components/Facebook-icon.png'
 import GithubIcon from '../components/Github-icon.png'
@@ -8,7 +9,7 @@ import TiktokIcon from '../components/Tiktok-icon.png'
 import { useState } from 'react';
 
 
-const Contact = () => {
+const Contact = () => { 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -27,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact">
+    <section id="contact" className="contact-section">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -63,6 +64,9 @@ const Contact = () => {
        
       </div>
       <div className="social-links">
+        <a href="https://wa.me/2348143092486" target="_blank" rel="noopener noreferrer" className='social-icon'>
+          <img src={whatsappIcon} alt="GitHub" /> 
+        </a>
         <a href="https://github.com/DorisAnioke" target="_blank" rel="noopener noreferrer" className='social-icon'>
           <img src={GithubIcon} alt="GitHub" /> 
         </a>
@@ -81,19 +85,7 @@ const Contact = () => {
       </div>
     </section>
   );
-  
-    // <section className='contact'>
-    //   <h2>Contact Me</h2>
-    //   <ul className='social-links'>
-    //     <li><a href="https://github.com/DorisAnioke" target='_blank' rel='noopener noreferrer'>GitHub</a></li>
-    //     <li><a href="https://linkedin.com/in/dorisanioke" target='_blank' rel='noopener noreferrer'>LinkedIn</a></li>
-    //     <li><a href="https://facebook.com/doris.anioke1" target='_blank' rel='noopener noreferrer'>Facebook</a></li>
-    //     <li><a href="https://tiktok.com/@_doris123" target='_blank' rel='noopener noreferrer'>Tiktok</a></li>
-    //     <li><a href="https://instagram.com/iamDorisAnioke" target='_blank' rel='noopener noreferrer'>Instagram</a></li>
-    //   </ul>
 
-      
-    // </section>
   
 }
 

@@ -4,7 +4,7 @@ import profilePhoto from './Profile.jpg'
 
 const About = () => {
   return (
-    <section id='about' className='about'>
+    <section id='about' className='about-section'>
       <div className='profile'>
          <img src={profilePhoto} alt="profile"/>
          <div>

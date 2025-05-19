@@ -4,7 +4,7 @@ import { SiPython, SiDjango } from 'react-icons/si';
 
 const Skills = () => {
   return (
-    <section id='skills' className='skills'>
+    <section id='skills' className='skills-section'>
       <h2>SKILLS</h2>
       <div className='skills-grid'>
         <div className='skill-card'>

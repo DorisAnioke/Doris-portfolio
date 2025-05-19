@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Resume from './components/Resume'
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <Skills/>
       <Projects/>
       <Contact/>
+      <Resume/>
       <Footer/>
       
     </div>
