@@ -1,6 +1,6 @@
 import React from 'react'
 import EmailIcon from '../components/Email-icon.png';
-import whatsappIcon from '../components/Whatsapp.png'
+import whatsappIcon from '../components/whatsapp.png'
 import instagramIcon from '../components/Instagram-icon.png'
 import FacebookIcon from '../components/Facebook-icon.png'
 import GithubIcon from '../components/Github-icon.png'
