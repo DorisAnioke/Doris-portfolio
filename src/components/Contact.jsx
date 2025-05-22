@@ -65,7 +65,7 @@ const Contact = () => {
       </div>
       <div className="social-links">
         <a href="https://wa.me/2348143092486" target="_blank" rel="noopener noreferrer" className='social-icon'>
-          <img src={whatsappIcon} alt="GitHub" /> 
+          <img src={whatsappIcon} alt="WhatsApp" /> 
         </a>
         <a href="https://github.com/DorisAnioke" target="_blank" rel="noopener noreferrer" className='social-icon'>
           <img src={GithubIcon} alt="GitHub" /> 

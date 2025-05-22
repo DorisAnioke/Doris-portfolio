@@ -309,7 +309,7 @@ nav a:hover {
 /*PROJECTS*/
 .projects-section {
   padding: 2rem;
-  margin-top: 2rem;
+  margin-top: 20vh;
   margin-bottom: 4rem;
   background: #0F0F1A;
   color: white;
@@ -415,14 +415,15 @@ display: grid;
   }
   .projects-section{
     padding:  1.5rem 1rem;
-    margin-top: 2.5rem;
-    margin-bottom: 5rem;
+    margin-top: 20vh;
 
-  }
+    
+
+  /* }
   section{
     margin: 2rem 0;
     padding: 1rem;
-  }
+  } */
 
   .projects-item {
     width: 100%;
@@ -542,7 +543,7 @@ display: grid;
 
 /* Footer */
  footer {
-
+  
   color: white;
   text-align: center;
   padding: 20px;
@@ -575,10 +576,15 @@ display: grid;
 .resume-link:hover {
   background-color: #0056b3; 
 }
+}
+
 
 @media (max-width: 768px) {
-  .resume-container {
-    padding: 10px; 
+  .resume-section {
+    display: flex;
+    flex-direction: column;
+    padding: px; 
+    margin-bottom: 10vh;
   }
 
   .resume-link {
@@ -621,6 +627,7 @@ display: grid;
 
  header {
     padding: 15px;
+    position: fixed;
   }
   .header-content{
     flex-direction: row;
@@ -731,7 +738,7 @@ display: grid;
     justify-content: center;
   }
   .skills-section{
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
   }
   .skill-icon{
     width: 32px;
@@ -762,7 +769,9 @@ display: grid;
   footer{
     padding: 10px;
     font-size: 12px;
+  
   }
+
   
 }
 

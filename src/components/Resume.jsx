@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/DorisAnioke.pdf'; // If in src/assets
+import resume from '../assets/DorisAnioke.pdf';
 
 function Resume() {
   return (
