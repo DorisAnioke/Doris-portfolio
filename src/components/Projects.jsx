@@ -9,7 +9,7 @@ const Projects = () => {
     src: "/images/styleverse.png",
     alt: "A Modern E-commerce website ",
     stack: ['HTML', 'CSS', 'JavaScript','Django'],
-    demo: "https://styleverse-qn4e.onrender.com",
+    linkDemo: "https://styleverse-qn4e.onrender.com",
     
 
   },
@@ -28,8 +28,8 @@ const Projects = () => {
     src: "/images/strive.jpg",
     alt:"A Digital Marketing Agency Website",
     stack: ['React', 'Bootstrap', 'CSS'],
-    demo: "https://strive-agency.vercel.app/",
-    code: "https://github.com/DorisAnioke/strive-agency",
+    linkDemo: "https://strive-agency.vercel.app/",
+    linkCode: "https://github.com/DorisAnioke/strive-agency",
 
   },
 
