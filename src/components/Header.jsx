@@ -15,7 +15,7 @@ const Header = () => {
         <button className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}
          aria-label={isMenuOpen ? 'Close menu' : 'Open menu'} aria-expanded={isMenuOpen}>
           {isMenuOpen ? (
-            <FaTimes className="hambuger-image.close-icon" />
+            <FaTimes className="hambuger-image close-icon" />
           ) : (
             <>
               <FaBars className="hambuger-image" />

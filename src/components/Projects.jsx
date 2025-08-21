@@ -3,54 +3,45 @@ import '../App.css'; // Or wherever your CSS is stored
 
 const Projects = () => {
   const projects = [
+
+{
+    id : 1,
+    src: "/images/styleverse.png",
+    alt: "A Modern E-commerce website ",
+    stack: ['HTML', 'CSS', 'JavaScript','Django'],
+    demo: "https://styleverse-qn4e.onrender.com",
+    
+
+  },
+
     {
-      id: 1,
+      id: 2,
       src: '/images/kfood.png',
       alt: "Seri's Korean Kitchen",
       stack: [ 'HTML', 'React.Js', 'CSS'],
       linkDemo: 'https://korean-kitchen.vercel.app/',
       linkCode: 'https://github.com/DorisAnioke/korean-kitchen'
     },
+
+  {
+    id : 3,
+    src: "/images/strive.jpg",
+    alt:"A Digital Marketing Agency Website",
+    stack: ['React', 'Bootstrap', 'CSS'],
+    demo: "https://strive-agency.vercel.app/",
+    code: "https://github.com/DorisAnioke/strive-agency",
+
+  },
+
     {
-      id: 2,
+      id: 4,
       src: '/images/lbs.png',
       alt: 'Lux Bathroom Solution',
       stack: ['HTML', 'CSS', 'JavaScript'],
       linkDemo: 'https://bath-solution-tp2l.vercel.app/',
       linkCode: 'https://github.com/DorisAnioke/bath-solution'
     },
-    {
-      id: 3,
-      src: '/images/weatherd.png',
-      alt: 'Weather App',
-      stack: ['HTML', 'CSS', 'React.JS'],
-      linkDemo: 'https://myweather-app2.vercel.app/',
-      linkCode: 'https://github.com/DorisAnioke/myweather-app2'
-    },
-    {
-      id: 4,
-      src: '/images/quiz.jpg',
-      alt: 'Quiz Game',
-      stack: ['HTML', 'CSS', 'JavaScript' ],
-      linkDemo: 'https://quiz-game-mu-jade.vercel.app/',
-      linkCode: 'https://github.com/DorisAnioke/quiz-game/'
-    },
-    // {
-    //   id: 5,
-    //   src: '/images/admin-dashboard.jpg',
-    //   alt: 'Admin Dashboard',
-    //   stack: ['React.JS', 'Chart.js', 'TailwindCSS'],
-    //   linkDemo: 'https://example.com/demo5',
-    //   linkCode: 'https://github.com/example5'
-    // },
-    // {
-    //   id: 6,
-    //   src: '/images/login-page.jpg',
-    //   alt: 'Login Page',
-    //   stack: ['HTML', 'CSS', 'JavaScript'],
-    //   linkDemo: 'https://example.com/demo6',
-    //   linkCode: 'https://github.com/example6'
-    // }
+    
   ];
 
   return (
