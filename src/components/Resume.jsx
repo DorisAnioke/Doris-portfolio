@@ -9,12 +9,7 @@ function Resume() {
       <a href={resume} download className="resume-link">
         Download Resume
       </a>
-      {/* Optional: Embed PDF preview */}
-      {/* <iframe
-        src={resume}
-        title="Resume Preview"
-        style={{ width: '100%', height: '500px', marginTop: '20px' }}
-      /> */}
+      
     </div>
   );
 }
